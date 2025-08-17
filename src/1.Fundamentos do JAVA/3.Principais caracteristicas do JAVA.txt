@@ -1,0 +1,108 @@
+Principais características do Java
+
+1.	Orientado a objetos
+    •	Modularidade: 
+        Java usa uma abordagem orientada a objetos, o que significa que organiza o design de software em torno de dados, ou objetos, 
+        em vez de funções e lógica. Essa modularidade permite a reutilização do código e facilita a manutenção.
+
+    •	Classes e objetos: 
+        Tudo em Java está associado a classes e objetos. Uma classe é um modelo para objetos, e os objetos são instâncias de classes.
+
+    •	Herança: 
+        Java permite que novas classes herdem propriedades e métodos de classes existentes, promovendo a reutilização de código.
+
+    •	Polimorfismo: 
+        Java permite que objetos sejam tratados como instâncias de sua classe pai, simplificando o código e melhorando a flexibilidade.
+
+    •	Encapsulamento: 
+        Java mantém os dados protegidos contra interferências externas e uso indevido, agrupando os dados (campos) e os métodos (funções) 
+        que os manipulam em uma única unidade chamada classe.
+
+2. Simples
+    •	Fácil de aprender: 
+        Java tem uma sintaxe direta que é fácil de aprender, especialmente para programadores com experiência em outras linguagens orientadas 
+        a objetos, como C++.
+
+    •	Código legível: 
+        O código é fácil de ler e escrever, o que ajuda a reduzir a curva de aprendizagem e facilita a depuração e a manutenção.
+
+3. Independente da plataforma
+    •	Escreva uma vez, execute em qualquer lugar (WORA): 
+        os programas Java são compilados em bytecode, que pode ser executado em qualquer dispositivo com uma Máquina Virtual Java (JVM). Isso 
+        significa que pode escrever código Java numa plataforma e executá-lo em qualquer outra plataforma sem modificações.
+
+    •	Compatibilidade entre plataformas: 
+        a independência da plataforma Java torna-a ideal para o desenvolvimento de aplicações entre plataformas.
+
+4. Seguro
+    •	Sem ponteiros explícitos: 
+    Java não usa ponteiros, o que ajuda a impedir o acesso não autorizado à memória.
+
+    •	Verificação de bytecode: 
+        O bytecode Java é verificado pela JVM antes da execução, garantindo que ele cumpra as restrições de segurança do Java.
+
+    •	Sandboxing: 
+        As aplicações Java são executadas em um ambiente restrito (sandbox) que limita o acesso a recursos do sistema e dados do utilizador, 
+        aumentando a segurança.
+
+5. Robusto
+    •	Gestão de memória robusta: 
+        Java possui um mecanismo eficiente de recolha de lixo que remove automaticamente objetos não utilizados da memória.
+
+    •	Tratamento de erros: 
+        Java fornece uma estrutura robusta de tratamento de exceções que ajuda a gerir erros de tempo de execução e melhora a estabilidade do programa.
+
+    •	Verificação de tipos: 
+        Java realiza verificações rigorosas de tipos em tempo de compilação e tempo de execução para evitar erros.
+
+6. Portátil
+    •	Execução multiplataforma: 
+        o bytecode Java pode ser executado em qualquer dispositivo com uma JVM compatível, tornando as aplicações Java portáteis em diferentes hardwares 
+        e sistemas operativos.
+
+    •	Bibliotecas independentes de plataforma: 
+        as bibliotecas padrão do Java fornecem uma API consistente em todas as plataformas, aumentando ainda mais a portabilidade.
+
+7. Multithreaded
+    •   Execução simultânea: 
+        Java suporta multithreading, permitindo que várias threads sejam executadas simultaneamente. Isso melhora o desempenho de aplicações que realizam 
+        várias tarefas ao mesmo tempo.
+
+    •   Sincronização: 
+        Java oferece suporte integrado para sincronização de threads, garantindo acesso seguro e previsível a recursos partilhados.
+
+8. Distribuído
+    •   Programação centrada em rede: 
+        Java possui recursos que suportam o desenvolvimento de aplicações distribuídas. Tecnologias como Remote Method Invocation (RMI) e Enterprise JavaBeans (EJB) 
+        permitem que aplicações Java se comuniquem através de redes.
+
+    •   Independência de plataforma: 
+        A independência de plataforma do Java torna-o a escolha ideal para aplicações distribuídas que precisam ser executadas em vários sistemas.
+
+9. Dinâmico
+    •	Carregamento de classes em tempo de execução: 
+        Java suporta o carregamento dinâmico de classes em tempo de execução, permitindo que as aplicações se adaptem a ambientes em mudança.
+
+    •	Reflexão: 
+        A API de reflexão do Java permite que os programas inspecionem e modifiquem a sua própria estrutura e comportamento em tempo de execução.
+
+10. Extensível
+    •	Herança: 
+        o mecanismo de herança do Java permite que os desenvolvedores criem novas classes com base nas existentes, ampliando sua funcionalidade.
+
+    •	Interfaces: 
+        o Java permite a implementação de interfaces, que podem adicionar novos métodos às classes existentes ou criar novas subclasses para aprimorar a funcionalidade.
+
+11. Programação de estilo funcional
+    •	Expressões lambda: 
+        introduzidas no Java 8, as expressões lambda permitem um código mais conciso e legível, habilitando técnicas de programação funcional.
+    •	Interfaces funcionais: o Java fornece várias interfaces funcionais integradas que suportam expressões lambda.
+    •	API Stream: a API Stream, introduzida no Java 8, permite o processamento eficiente de sequências de elementos, facilitando a execução de operações como filtragem, 
+    mapeamento e redução.
+
+
+Conclusão
+    O rico conjunto de recursos do Java o torna uma linguagem poderosa e versátil para uma ampla gama de aplicações. Seja para desenvolver software para desktop, 
+    aplicativos móveis, aplicações web ou sistemas empresariais de grande escala, a natureza orientada a objetos, a independência de plataforma, a segurança e a 
+    robustez do Java o tornam a escolha preferida de desenvolvedores em todo o mundo. Ao compreender esses recursos principais, você pode entender por que o Java 
+    continua sendo uma linguagem de programação líder na indústria de tecnologia.
