@@ -1,0 +1,116 @@
+
+Diferença entre JDK, JRE e JVM
+
+Introdução
+    À medida que você se aprofunda na programação Java, é essencial entender os principais componentes 
+que compõem a plataforma Java: o Java Development Kit (JDK), o Java Runtime Environment (JRE) e a Java 
+Virtual Machine (JVM). Neste capítulo, exploraremos as diferenças entre esses componentes, suas funções 
+e como eles interagem entre si para permitir o desenvolvimento e a execução do Java.
+
+
+O que é a JVM?
+    Máquina virtual Java (JVM)
+
+    A máquina virtual Java (JVM) é uma máquina abstrata que fornece o ambiente de tempo de execução no qual 
+    o bytecode Java pode ser executado. Cada sistema operacional e plataforma de hardware tem sua própria 
+    implementação da JVM, o que permite que os programas Java sejam executados em vários dispositivos e 
+    sistemas operacionais.
+
+
+Pontos principais:
+
+    Independência de plataforma: 
+        A JVM permite que os aplicativos Java sejam independentes de plataforma, fornecendo uma camada que 
+        abstrai o hardware e o sistema operacional subjacentes.
+
+    Execução de bytecode: 
+        A JVM executa o bytecode Java, que é compilado a partir do código-fonte Java.
+
+    Gerenciamento de memória: 
+        A JVM gerencia a memória por meio da coleta de lixo, recuperando automaticamente a memória usada por 
+        objetos que não são mais necessários.
+
+    Segurança: 
+        A JVM fornece um ambiente de execução seguro, aplicando controles de acesso e evitando operações não 
+        autorizadas.
+
+
+O que é JRE?
+    O Java Runtime Environment (JRE) é um pacote que fornece as bibliotecas e os recursos necessários para a 
+execução de aplicativos Java. Ele inclui o JVM, as bibliotecas principais e outros componentes necessários 
+para executar programas Java.
+
+Pontos principais:
+    Ambiente de execução: 
+        O JRE fornece o ambiente de tempo de execução para a execução de aplicativos Java.
+
+    Componentes: 
+        O JRE inclui a JVM, as principais bibliotecas Java (como java.lang, java.util) e os arquivos de suporte.
+
+    Focado no usuário: 
+        O JRE é destinado a usuários que desejam executar aplicativos Java, mas não precisam desenvolvê-los. Ele 
+        não inclui ferramentas de desenvolvimento, como compiladores e depuradores.
+
+
+O que é o JDK?
+    O Java Development Kit (JDK) é um pacote abrangente que fornece tudo o que é necessário para o desenvolvimento 
+    do Java. Ele inclui o JRE, bem como ferramentas de desenvolvimento, como o compilador Java (javac), o depurador 
+    e vários utilitários.
+
+
+Pontos principais:
+    Ambiente de desenvolvimento: 
+        O JDK fornece um ambiente completo para o desenvolvimento em Java, incluindo ferramentas para escrever, compilar 
+        e depurar o código Java.
+
+    Componentes: 
+        O JDK inclui o JRE, ferramentas de desenvolvimento (javac, javadoc, jar) e bibliotecas e arquivos adicionais 
+        necessários para o desenvolvimento em Java.
+
+    Focado no desenvolvedor: 
+        O JDK é destinado a desenvolvedores que precisam escrever e compilar código Java. Ele inclui todas as ferramentas 
+        necessárias para desenvolvimento e teste.
+
+
+Como eles trabalham juntos
+    Interação entre JDK, JRE e JVM
+    
+    Escrevendo código:
+        Como desenvolvedor, você escreve o código-fonte Java usando um editor de texto ou um IDE.
+        O JDK fornece as ferramentas necessárias para escrever e gerenciar seu código.
+
+    Compilação de código:
+        Você usa o compilador Java (javac), incluído no JDK, para compilar o código-fonte Java (arquivos .java) em bytecode 
+        (arquivos .class).
+        O bytecode compilado é independente de plataforma e pode ser executado em qualquer dispositivo com uma JVM.
+
+    Execução do código:
+        O JRE fornece o ambiente de tempo de execução para executar o bytecode compilado.
+        O JVM, incluído no JRE, interpreta ou compila o bytecode em código de máquina específico para o hardware e o sistema 
+        operacional subjacentes.
+        A JVM executa o código de máquina, executando seu aplicativo Java.
+
+
+Diagrama: Relação entre JDK, JRE e JVM
+
+    |-------------------------------------------|
+    |                   JDK                     |
+    |   |-----------------------------------|   |
+    |   |               JRE                 |   |
+    |   | |----------| |------------------| |   |
+    |   | |   JVM    | | CORE / LIBRARIES | |   |
+    |   | |----------| |------------------| |   |
+    |   |-----------------------------------|   |
+    |                                           |
+    |   |-----------------------------------|   |
+    |   |          Development tools        |   |
+    |   |       Javac, Javadoc, etc         |   |
+    |   |-----------------------------------|   |
+    |-------------------------------------------|
+
+
+Conclusão
+    Entender as diferenças entre o JDK, o JRE e a JVM é fundamental para quem trabalha com Java. A JVM fornece o ambiente de execução 
+independente da plataforma, o JRE inclui tudo o que é necessário para executar aplicativos Java e o JDK é um kit de ferramentas completo 
+para o desenvolvimento de programas Java. Ao saber como esses componentes interagem, você pode apreciar melhor a arquitetura da plataforma 
+Java e tomar decisões informadas sobre o desenvolvimento e a implantação do Java.
