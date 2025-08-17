@@ -1,0 +1,107 @@
+History of Java
+
+Introdução
+    Java é uma das linguagens de programação mais populares do mundo. Foi criada pela Sun Microsystems em 1995 e atualmente 
+é mantida pela Oracle Corporation. Java é conhecida por sua versatilidade, confiabilidade e capacidade de rodar em diversos 
+dispositivos. Vamos dar uma olhada na história do Java e como ele evoluiu ao longo dos anos.
+
+Primeiros passos:
+- 1991: O “Green Team”
+    Java começou em 1991, quando James Gosling, Mike Sheridan e Patrick Naughton, da Sun Microsystems, iniciaram o Projeto Green. 
+O objetivo deles era criar uma linguagem para dispositivos digitais, como decodificadores e televisores. Eles queriam uma linguagem 
+que pudesse ser executada em qualquer dispositivo, independentemente do seu hardware ou software.
+
+- 1995: De Oak para Java
+    Inicialmente, a linguagem era chamada Oak, em homenagem a um carvalho que ficava do lado de fora do escritório de James Gosling. 
+No entanto, devido a questões relacionadas a marcas registradas, ela foi renomeada para Java, inspirada no café Java. Em 1995, o Java 
+foi lançado oficialmente com o slogan “Write Once, Run Anywhere” (WORA, ou “Escreva uma vez, execute em qualquer lugar”).
+
+Principais marcos na evolução do Java
+- 1996: Java 1.0
+    O Java 1.0 foi a primeira versão oficial lançada em 1996. Ele fornecia as ferramentas básicas necessárias para escrever programas Java, 
+    incluindo o Java Development Kit (JDK) 1.0.
+
+- 1997: Java 1.1
+    O Java 1.1 introduziu novas funcionalidades importantes, como classes internas, JavaBeans e JDBC (Java Database Connectivity), tornando-o 
+    mais poderoso e versátil.
+
+- 1998: Java 2 (J2SE 1.2)
+    O Java 2, também conhecido como J2SE 1.2, foi uma grande atualização. Introduziu a API gráfica Swing para a criação de interfaces de utilizador,
+    a estrutura Collections para a gestão de dados e o Java Plug-in para a execução de applets Java em navegadores da Web.
+
+- 2000: J2SE 1.3 e 1.4
+    O J2SE 1.3 concentrou-se em melhorar o desempenho, enquanto o J2SE 1.4 adicionou funcionalidades como o Java Web Start, a palavra-chave assert 
+    para depuração e suporte para expressões regulares.
+
+- 2004: Java 5 (J2SE 5.0)
+    O Java 5, também conhecido como J2SE 5.0, trouxe melhorias importantes, como genéricos, metadados (anotações), tipos enumerados e o loop for aprimorado, 
+    tornando o Java mais fácil e eficiente de usar.
+
+- 2006: Java SE 6
+    O Java SE 6 concentrou-se em melhorar os recursos existentes, com aprimoramentos no desempenho, depuração e monitoramento. Também introduziu suporte a 
+    scripts com o motor Rhino JavaScript.
+
+- 2011: Java SE 7
+    O Java SE 7 introduziu vários novos recursos, incluindo a instrução try-with-resources para melhor gestão de recursos, o operador diamante (<>) para 
+    simplificar o código e inferência de tipos aprimorada para genéricos.
+
+- 2014: Java SE 8
+    O Java SE 8 foi uma atualização significativa. Introduziu expressões lambda para programação funcional, a API Stream para processamento de coleções de 
+    dados e uma nova API de data e hora.
+
+- 2017: Java SE 9
+    O Java SE 9 trouxe o sistema de módulos, permitindo aos programadores criar aplicações modulares. Também incluiu a ferramenta JShell (REPL) para experimentar 
+    código Java e melhorias na API Stream.
+
+- 2018: Java SE 10
+    O Java SE 10 introduziu a inferência de tipo de variável local com a palavra-chave var, tornando o código mais conciso e mantendo a segurança de tipo.
+
+- 2018: Java SE 11
+    O Java SE 11, uma versão com suporte de longo prazo (LTS), incluiu novos recursos, como a palavra-chave var para parâmetros lambda, um novo cliente HTTP 
+    e várias melhorias nas APIs existentes.
+
+- 2019: Java SE 12
+    O Java SE 12 introduziu expressões switch (pré-visualização) e adicionou novos recursos para melhorar a experiência de desenvolvimento.
+
+- 2019: Java SE 13
+    O Java SE 13 trouxe blocos de texto (pré-visualização) para facilitar o manuseio de Strings com várias linhas e continuou a aprimorar os recursos existentes.
+
+- 2020: Java SE 14
+    O Java SE 14 introduziu melhorias como a nova expressão switch, que simplifica os padrões de codificação, e a pré-visualização de registros para modelar dados 
+    como classes de dados imutáveis.
+
+- 2020: Java SE 15
+    O Java SE 15 consolidou funcionalidades como blocos de texto e adicionou novas funcionalidades de pré-visualização, como classes seladas, para maior controle 
+    sobre a herança.
+
+- 2021: Java SE 16
+    O Java SE 16 incluiu a correspondência de padrões para o operador instanceof, tornando o código mais legível, e continuou a pré-visualização de registos e classes seladas.
+
+- 2021: Java SE 17
+    O Java SE 17, outra versão LTS, consolidou funcionalidades como classes seladas e correspondência de padrões para instanceof. Introduziu novas funcionalidades destinadas 
+    a melhorar a produtividade dos programadores e o desempenho das aplicações.
+
+- 2022: Java SE 18
+    O Java SE 18 introduziu o servidor web simples, melhorias no UTF-8 e novos aprimoramentos na API.
+
+- 2022: Java SE 19
+    O Java SE 19 aprimorou a linguagem com melhorias em threads virtuais e concorrência estruturada, com foco em melhores modelos de concorrência e desempenho.
+
+- 2023: Java SE 20
+    O Java SE 20 concentrou-se em refinar ainda mais a linguagem com melhorias nos padrões de registro, classes seladas e novos utilitários de concorrência. Também introduziu 
+    novas APIs para simplificar tarefas comuns de programação.
+
+- 2023: Java SE 21
+    O Java SE 21 continuou a evolução com melhorias adicionais na JVM, melhor suporte para hardware moderno e novos recursos de linguagem que simplificaram a codificação e 
+    melhoraram o desempenho.
+
+- 2024: Java SE 22
+    O Java SE 22 introduziu novos recursos no âmbito do Project Loom e do Project Panama, aprimorando o modelo de concorrência e as interfaces de funções externas. Essas 
+    alterações tiveram como objetivo tornar o Java mais eficiente para cargas de trabalho e integrações modernas.
+
+
+Conclusão
+    O Java percorreu um longo caminho desde o seu início em 1991. Desde a sua utilização inicial em dispositivos digitais até se tornar uma linguagem de programação líder para 
+    aplicações web, móveis, desktop e empresariais, o Java tem evoluído consistentemente para satisfazer as necessidades dos programadores. Com cada nova versão, o Java introduz 
+    funcionalidades que o tornam mais poderoso, eficiente e fácil de utilizar. A rica história e a melhoria contínua do Java garantem o seu lugar como uma das principais linguagens 
+    de programação durante muitos anos.
