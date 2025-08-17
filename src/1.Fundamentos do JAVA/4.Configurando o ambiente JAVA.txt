@@ -1,0 +1,136 @@
+CONFIGURANDO O AMBIENTE JAVA
+
+Introdução
+    Antes de começar a escrever programas Java, você precisa configurar seu ambiente de desenvolvimento. Isso envolve 
+instalar o Java Development Kit (JDK) e configurar seu sistema para executar aplicativos Java. 
+Neste capítulo, vamos percorrer as etapas necessárias para configurar nosso ambiente Java em diferentes sistemas operacionais.
+
+Passo 1: 
+    Baixe e instale o JDK.
+
+    O que é o JDK?
+    O Java Development Kit (JDK) é um kit de desenvolvimento de software necessário para desenvolver aplicativos Java. 
+Ele inclui o Java Runtime Environment (JRE), um interpretador/carregador (Java), um compilador (javac), um arquivador (jar), 
+um gerador de documentação (Javadoc) e outras ferramentas necessárias no desenvolvimento Java.
+
+    Baixe o JDK
+    - Visite a página oficial do Oracle JDK:
+        Acesse a página de download do Oracle JDK: https://www.oracle.com/java/technologies/javase-downloads.html
+
+    - Selecione a versão apropriada do JDK:
+        Escolha a versão do JDK que você precisa. Para iniciantes, é recomendável baixar a versão mais recente com suporte
+        de longo prazo (LTS).
+
+    - Escolha seu sistema operacional:
+        Selecione o link de download apropriado para o seu sistema operacional (Windows, macOS ou Linux).
+
+
+    Instalação do JDK
+
+    *   No Windows
+
+    - Execute o instalador:
+        Clique duas vezes no arquivo .exe baixado para iniciar o processo de instalação.
+
+    - Siga o assistente de instalação:
+        Siga as instruções do assistente de instalação. Aceite o contrato de licença e escolha o diretório de instalação 
+        (o padrão geralmente é bom).
+    
+    - Verifique a instalação:
+        Abra um prompt de comando (CMD) e digite java --version para verificar a instalação. Você deverá ver a versão instalada do Java.
+
+
+    *   No macOS
+    - Execute o instalador:
+        Clique duas vezes no arquivo .dmg baixado para iniciar o processo de instalação.
+
+    - Siga o assistente de instalação:
+        Siga as instruções do assistente de instalação.
+
+    - Verificar a instalação:
+        Abra um terminal e digite java -version para verificar a instalação.
+
+
+    *   No Linux
+    - Abra o Terminal:
+        Abra seu terminal.
+
+    - Instale o JDK usando o gerenciador de pacotes:
+        Para sistemas baseados no Debian (como o Ubuntu), use:
+        #sudo apt update
+        #sudo apt install openjdk-17-jdk
+
+        Para sistemas baseados no Red Hat (como o Fedora), use:
+        #sudo dnf install java-17-openjdk
+
+    - Verificar a instalação:
+    Digite java --version no terminal para verificar a instalação.
+
+
+
+Passo 2: 
+    Configure as variáveis de ambiente
+
+    *   No Windows
+        Abra as variáveis de ambiente:
+            Clique com o botão direito do mouse em “Este PC” ou ‘Computador’ na área de trabalho e selecione “Propriedades”.
+            Clique em “Configurações avançadas do sistema”.
+            Clique em “Environment Variables” (Variáveis de ambiente).
+
+        Adicione JAVA_HOME:
+            Na seção “System variables” (Variáveis do sistema), clique em “New” (Novo).
+            Digite JAVA_HOME como o nome da variável.
+            Digite o caminho para a instalação do JDK como o valor da variável (por exemplo, C:\Program Files\Java\jdk-17).
+
+        Atualize a variável PATH:
+            Localize a variável Path na seção “System variables” (Variáveis do sistema) e clique em “Edit” (Editar).
+            Adicione uma nova entrada com o caminho para o diretório bin do JDK (por exemplo, C:\Program Files\Java\jdk-17\bin).
+
+        Salve e aplique:
+            Clique em “OK” para fechar todas as caixas de diálogo e aplicar as alterações.
+
+    *   No macOS e no Linux
+        Abra o Terminal:
+            Abra seu terminal.
+        
+        Editar arquivo de perfil:
+            Abra o arquivo de perfil usando um editor de texto. Por exemplo:
+            #nano ~/.bash_profile
+            
+            Se estiver usando zsh, talvez seja necessário editar ~/.zshrc.
+
+        Adicione JAVA_HOME:
+            Adicione as seguintes linhas ao arquivo:
+            #export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home
+            #export PATH=$JAVA_HOME/bin:$PATH
+
+        Ajuste o caminho para que corresponda à sua instalação do JDK.
+            Aplicar alterações:
+            Salve o arquivo e aplique as alterações executando:
+            #source ~/.bash_profile
+
+            Para zsh, use:
+            #source ~/.zshrc
+
+        Verifique a instalação:
+            Digite java -version no terminal para garantir que tudo esteja configurado corretamente.
+
+
+Passo 3: 
+    Verificar a configuração
+        Para garantir que tudo esteja configurado corretamente, abra um terminal ou prompt de comando e digite os seguintes comandos:
+
+    Verifique a versão do Java:
+        #java -version
+        Esse comando deve exibir a versão instalada do Java.
+
+        Verifique a versão do Javac:
+        #javac -version
+        Esse comando deve exibir a versão instalada do compilador Java.
+
+
+    Conclusão
+    A configuração do ambiente de desenvolvimento Java é a primeira etapa para aprender a programar em Java. Ao seguir essas etapas, 
+você terá o JDK instalado e configurado corretamente em seu sistema. Depois que seu ambiente estiver configurado, você poderá começar 
+a escrever e executar programas Java. Boa programação!
+
