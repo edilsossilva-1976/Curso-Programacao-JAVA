@@ -8,20 +8,17 @@ Virtual Machine (JVM). Neste capítulo, exploraremos as diferenças entre esses 
 e como eles interagem entre si para permitir o desenvolvimento e a execução do Java.
 
 
-O que é a JVM?
-    Máquina virtual Java (JVM)
-
-    A máquina virtual Java (JVM) é uma máquina abstrata que fornece o ambiente de tempo de execução no qual 
-    o bytecode Java pode ser executado. Cada sistema operacional e plataforma de hardware tem sua própria 
-    implementação da JVM, o que permite que os programas Java sejam executados em vários dispositivos e 
-    sistemas operacionais.
-
+O que é a Máquina virtual Java (JVM)
+    A máquina virtual Java (JVM) é uma máquina abstrata que fornece o ambiente de tempo de execução no 
+    qual o bytecode Java pode ser executado. Cada sistema operacional e plataforma de hardware tem sua 
+    própria implementação da JVM, o que permite que os programas Java sejam executados em vários dispositivos 
+    e sistemas operacionais.
 
 Pontos principais:
 
     Independência de plataforma: 
         A JVM permite que os aplicativos Java sejam independentes de plataforma, fornecendo uma camada que 
-        abstrai o hardware e o sistema operacional subjacentes.
+    abstrai o hardware e o sistema operacional subjacentes.
 
     Execução de bytecode: 
         A JVM executa o bytecode Java, que é compilado a partir do código-fonte Java.
@@ -32,7 +29,7 @@ Pontos principais:
 
     Segurança: 
         A JVM fornece um ambiente de execução seguro, aplicando controles de acesso e evitando operações não 
-        autorizadas.
+    autorizadas.
 
 
 O que é JRE?
@@ -56,7 +53,6 @@ O que é o JDK?
     O Java Development Kit (JDK) é um pacote abrangente que fornece tudo o que é necessário para o desenvolvimento 
     do Java. Ele inclui o JRE, bem como ferramentas de desenvolvimento, como o compilador Java (javac), o depurador 
     e vários utilitários.
-
 
 Pontos principais:
     Ambiente de desenvolvimento: 
@@ -104,7 +100,7 @@ Diagrama: Relação entre JDK, JRE e JVM
     |                                           |
     |   |-----------------------------------|   |
     |   |          Development tools        |   |
-    |   |       Javac, Javadoc, etc         |   |
+    |   |         Javac, Javadoc, etc       |   |
     |   |-----------------------------------|   |
     |-------------------------------------------|
 
